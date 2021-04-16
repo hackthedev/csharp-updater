@@ -40,7 +40,7 @@ namespace AdminInstall // The Project Name i came up with.
             catch (Exception ex)
             {
                 Clipboard.SetText(ex.Message);                                              // If any errors happen, it copies the error message to clipboard
-                MessageBox.Show("Konnte keinen Versions-Abgleich durchführen", "error");
+                MessageBox.Show("Unable to get Version number", "error");
             }
 
             if (content == System.Windows.Forms.Application.ProductVersion)
@@ -49,7 +49,10 @@ namespace AdminInstall // The Project Name i came up with.
             }
             else
             {
-                MessageBox.Show("Update gefunden", "info");
+                // Here you could add DialogResult to let the user choose to update or not.
+                // Currently it just shows a message for testing purposes. Just delete this line if you dont need it or comment
+                // it out
+                MessageBox.Show("A New update was found", "info");
 
                 try
                 {
