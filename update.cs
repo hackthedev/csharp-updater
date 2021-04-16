@@ -45,7 +45,7 @@ namespace AdminInstall // The Project Name i came up with.
 
             if (content == System.Windows.Forms.Application.ProductVersion)
             {
-
+                // Do nothing because you are already on the newest version
             }
             else
             {
