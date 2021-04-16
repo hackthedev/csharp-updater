@@ -1,4 +1,4 @@
-# csharp-updater
+# Simple C# Updater (as Class File)
 This Code can be used in combination with WinRAR SFX Archive to Update and overwrite you C# Application. It will check on a server for a file named "version.txt" if the content of this file is higher than the assembly version number. If true, it downloads the SFX Archive named "update.exe" and executes if the downloaded file is present. If not, it will through an exception. Also: When the Update is found and downloaded, the file "update.exe" gets executed and the C# Application closes itself, because there would be an overwriting error while trying to update current binaries etc.
 
 # Requirements
