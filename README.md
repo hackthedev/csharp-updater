@@ -10,3 +10,5 @@ Do whatever you want but dont sell it or tell people you did it because i was th
 
 # Final Words
 I hope i was able to help you. i would like to hear if it worked or not because it looks like a lot of people have issues if updating their Applications in the wild. If there are any issues just tell me and i will help :)
+
+If you need help setting up the SFX file let me know
