@@ -4,6 +4,7 @@ This Code can be used in combination with WinRAR SFX Archive to Update and overw
 # Requirements
 - C# Application (WinForm prefered
 - Server (to host version.txt and update.exe)
+- WinRAR (for SFX Archive)
 
 # License
 Do whatever you want but dont sell it or tell people you did it because i was the person sitting down on this trying to work around those integrated, complicated updaters on the market. 
